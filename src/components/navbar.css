@@ -1,0 +1,19 @@
+body {
+  background-color: #ffffe6;
+}
+span.bi.bi-search.bi::before {
+  font-size: 27px;
+  -webkit-text-stroke: 1px;
+}
+.bi::before {
+  font-size: 56px;
+  -webkit-text-stroke: 0px;
+}
+input {
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+}
+input:focus {
+  outline: none !important;
+}
