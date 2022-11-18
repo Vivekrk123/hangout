@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import hangout from "../assets/hangout.svg";
+import hangout from "./assets/hangout.svg";
 import "./login.css";
-import image from "../assets/image.svg";
+import image from "./assets/image.svg";
 //Login Page
 
 const Login = () => {
