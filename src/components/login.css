@@ -1,0 +1,139 @@
+body {
+  width: 1440px;
+  height: 1024px;
+  background: #ffffff;
+  left: -720px;
+  top: 1017px;
+  border-radius: 0px;
+}
+
+.img {
+  position: absolute;
+  width: 407px;
+  height: 135.6px;
+  left: 60px;
+  top: 32px;
+}
+
+.title {
+  position: absolute;
+  width: 320px;
+  height: 64px;
+  left: 120px;
+  top: 295px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.email {
+  position: absolute;
+  width: 83px;
+  height: 16px;
+  left: 106px;
+  top: 405px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.email-input {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  left: 99px;
+  top: 441px;
+  background: #ffffff;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+}
+
+.password {
+  position: absolute;
+  width: 138px;
+  height: 16px;
+  left: 106px;
+  top: 553px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.password-input {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  left: 99px;
+  top: 589px;
+  background: #ffffff;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+}
+
+.btn {
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  left: 99px;
+  top: 733px;
+
+  background: #000000;
+  border-radius: 15px;
+}
+
+.signin {
+  position: absolute;
+  width: 100px;
+  height: 43px;
+  left: 150px;
+  top: 10px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.signup {
+  position: absolute;
+  width: 261px;
+  height: 27px;
+  left: 152px;
+  top: 833px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.pic {
+  position: absolute;
+  width: 840px;
+  height: 1024px;
+  left: 599px;
+  top: 0px;
+}
