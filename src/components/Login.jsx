@@ -27,14 +27,14 @@ const Login = () => {
               placeholder=""
             />
 
-            <button className="btn m-3 col-6">
+            <button className="btn m-3 mb-0 col-6">
               {" "}
               <Link to="/" className="signin ">
                 {" "}
                 Sign In{" "}
               </Link>
             </button>
-            <div className="signup  mt-2">
+            <div className="signup  m-5">
               Don't have account? <strong>Sign Up</strong>
             </div>
           </div>
