@@ -4,12 +4,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 
 function App() {
-
   return (
-     <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <React.Fragment>
           <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
         </React.Fragment>
       </Routes>
     </BrowserRouter>

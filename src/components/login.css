@@ -10,6 +10,10 @@
 
   border-radius: 15px;
 }
+.btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
 .signin {
   font-family: "Playfair Display";
   font-style: normal;
@@ -29,4 +33,12 @@ input {
 }
 input:focus {
   outline: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
