@@ -7,7 +7,7 @@ import hangout from "./assets/hangout.svg";
 import image from "./assets/image.svg";
 //Login Page
 axios.defaults.withCredentials = true;
-const url = "http://localhost:3000/users/";
+const url = "http://3.86.253.137/users/";
 
 const Login = () => {
   const navigate = useNavigate();
